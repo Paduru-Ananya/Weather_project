@@ -1,0 +1,26 @@
+.weather-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .center-container {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        
+        }
+          
+  

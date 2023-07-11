@@ -1,0 +1,137 @@
+/* .container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#88941e
+}
+.article{
+    float:left;
+    width:55%;
+}
+.image{
+    float: right;
+    display:block;
+    width:40%;
+}
+.image img{
+    width:100%;
+    height:auto;
+}
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display:block;
+        margin:auto;
+    }
+    .article{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+    .image{
+        float:none;
+        width:100%;
+        margin-top: 50px;
+    }
+    .image img{
+        width:100%;
+        height: auto;
+        display:block;
+        margin: auto;
+    }
+
+}
+.section{
+margin-top: 200px;
+}  */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .title h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #88941e;
+    text-align: center;
+  }
+  
+  .article {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image {
+    float: none;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+    .article {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .image {
+      float: none;
+      width: 100%;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+  }
+  
+  .section {
+    margin-top: 200px;
+  }
+  
+
